@@ -1,0 +1,310 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    background-image: linear-gradient(#111111, #191919, #111111, white);
+    width: 100%;
+
+}
+
+#Rog {
+    background-color: #21e465;
+    height: 35px;
+    border-bottom: #1bd85d;
+}
+
+#Rog>p {
+    padding-left: 1220px;
+    color: black;
+    font-size: small;
+    font-weight: bold;
+    padding-top: 2px;
+}
+
+#left {
+    background-color: black;
+    color: white;
+    width: 240px;
+    font-size: small;
+    font-weight: bolder;
+}
+
+#vstok {
+    border: 1px solid #3e3c3c;
+    background-color: #3d3a3a;
+    width: 235px;
+    height: 28px;
+    padding-top: 12px;
+    margin-bottom: 12px;
+    border-radius: 5px;
+    margin-left: 3px;
+}
+
+#logo {
+    margin: 27px 0 30px 25px;
+    width: 135px;
+    height: 40px;
+}
+
+#heart {
+    position: absolute;
+    left: 300px;
+    top: 170px;
+}
+
+#arrow {
+    width: 80px;
+    height: 30px;
+}
+
+#downleft {
+    width: 25px;
+    height: 25px;
+    padding-right: 15px;
+}
+
+#futheart {
+    width: 25px;
+    height: 25px;
+    margin: 30px 0 0 20px;
+}
+
+#img1 {
+    position: absolute;
+    left: 90%;
+    top: 5%;
+    width: 110px;
+    height: 35px;
+    background-color: black;
+    border: 1px solid black;
+    border-radius: 80px;
+
+
+}
+
+#upper {
+    padding-top: 30px;
+    color: white;
+    width: 100vw;
+}
+
+#home {
+    padding-left: 25px;
+    padding-top: 25px;
+}
+
+#user {
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+}
+
+#userarrow {
+    width: 20px;
+    padding-top: 4px;
+}
+
+#sidecontrol {
+    padding: 35px 50px;
+    height: 30px;
+    width: 240px;
+}
+
+#control {
+    height: 50px;
+    width: 510px;
+    padding: 10px 0 0 30px;
+}
+
+.head {
+    display: flex;
+}
+
+.fut1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.fut2 {
+    display: flex;
+}
+
+.u1 {
+    flex-wrap: wrap;
+}
+
+.head2 {
+    padding: 10px 0 0 30px;
+}
+
+.head2>div {
+    padding: 10px 0;
+}
+
+.head2>div>p {
+    padding-left: 25px;
+}
+
+.head4 {
+    display: inline;
+}
+
+.head3 {
+    padding: 10px 0 0 25px;
+}
+
+.head3>p {
+    padding: 7px;
+}
+
+.head4 {
+    padding: 40px 0 0 30px;
+    margin-top: -7px;
+}
+
+#heading {
+    padding-bottom: 10px;
+}
+
+.uper-head4 {
+    border: 1px solid #444242;
+    width: 170px;
+    height: 200px;
+    background-color: #474646;
+    padding: 10px 10px 40px 10px;
+    margin: 20px 30px 0 0px;
+}
+
+.uper-head4>h3 {
+    padding-top: 10px;
+    font-size: medium;
+}
+
+
+
+footer {
+    position: absolute;
+    bottom: -5%;
+    width: 100%;
+}
+
+#music-bar {
+    height: 90px;
+    background-color: #121111;
+    color: white;
+}
+
+#sho-head4 {
+    color: white;
+    padding-top: 40px;
+}
+
+.i1 {
+    border: 1px solid #4f4f4f;
+    width: 300px;
+    background-color: #161414;
+    margin: 20px 10px 0 0;
+    border-radius: 5px;
+}
+
+.i1>p {
+    padding: 30px 0 0 20px;
+}
+
+
+
+.likeshow {
+    width: 150px;
+    height: 150px;
+}
+
+.sidemenu-img2 {
+    width: 40px;
+    height: 40px;
+    padding: 5px 0 0 10px;
+    position: absolute;
+    left: 2%;
+}
+
+.ls {
+    width: 20px;
+    height: 20px;
+    margin: 100 18px 20px 30px;
+    margin-left: 5px;
+}
+
+.Top-3 {
+    width: 20px;
+    height: 20px;
+    margin: 0 18px 20px 30px;
+}
+
+#heart {
+    position: absolute;
+    left: 290px;
+    top: 165px;
+}
+
+.plus {
+    width: 10px;
+    height: 10px;
+    padding: 5px 0 0 10px;
+    position: absolute;
+    z-index: 1;
+}
+
+@media screen and (max-width: 480px) {
+    #sidemenu {
+        display: none;
+    }
+
+    #home-page {
+        padding-left: 3%;
+    }
+
+    #top-arrow {
+        display: none;
+    }
+
+    .flex1 {
+        justify-content: flex-end;
+        width: 350px;
+    }
+
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(2, 180px);
+    }
+
+    body {
+        width: 100%;
+        height: 100%;
+    }
+
+    #heart {
+        position: absolute;
+        left: 28px;
+        top: 152px;
+        width: 20px;
+    }
+
+
+
+
+    footer {
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        height: 90px;
+        background-color: #121111;
+        color: white;
+        text-align: center;
+        padding: 20px;
+    }
+
+
+
+}
